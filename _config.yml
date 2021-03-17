@@ -1,1 +1,1 @@
-theme: jekyll-theme-leap-day
+gem "jekyll-whiteglass", "1.3.0"
