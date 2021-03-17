@@ -10,3 +10,6 @@ log-level: info
 external-controller: :9090
 proxies:
 ```
+
+
+[Clash 配置文件](https://cdn.app-io.workers.dev/kairongdonga/Myself/master/Clash/clash.yml)
