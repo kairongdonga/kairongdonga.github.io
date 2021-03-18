@@ -1,49 +1,41 @@
 <!DOCTYPE HTML>
 
 <html>
-
 <head>
     <title>Serendipity </title>
     <meta charset="utf-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-    <link rel="stylesheet" href="assets/css/main.css" />
-
 </head>
-
-<body class="is-preload"></body>
-
 <body>
-
-    <h1> servendipity
-
-    </h1>
+    <h1> servendipity</h1>
     <p>偶尔遇见的小确幸</p>
 </body>
+<style>
+ .spotlight {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 0 2em 0;
+}
+ body {
+		background-color: #935d8c;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	}
+</style>
 
-
-<div id="main">
-
-    <!-- Introduction -->
-    <section id="intro" class="main">
-        <div class="spotlight">
-            <div class="content">
-                <header class="major">
-                    <h2>Hi 2021 </h2>
-                </header>
-                <p>2020年或许我们都有不完美，但2021年我会更努力-为自己</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-
-
-
-    </section>
+<div id="spotlight">
+    <h2>Hi 2021 </h2>
+    <p>2020年或许我们都有不完美，但2021年我会更努力-为自己</p>
+    <li><a href="generic.html" class="button">Learn More</a></li>
 </div>
+
+
 
 </html>
