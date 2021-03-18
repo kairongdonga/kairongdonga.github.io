@@ -119,6 +119,17 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* span */
+span{
+    content: "\2603";
+	margin-top:-12px;
+
+
+
+}
+
+
+
 /* Type */
 
 	body {
