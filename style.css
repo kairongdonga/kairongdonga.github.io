@@ -7,12 +7,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    
+    
 }
 
 .timeline-section {
-    background-color: #242924;
+    background-image: url(1.png);
+ 
     min-height: 100vh;
-    padding: 100px 15px;
+ 
 }
 
 .timeline-items {
@@ -68,9 +71,10 @@ body {
 }
 
 .timeline-content {
-    background-color: #2f363e;
+    background-color: #5b5b5b;
     padding: 30px;
     border-radius: 8px;
+    
 }
 
 .timeline-content h3 {
@@ -82,7 +86,7 @@ body {
 }
 
 .timeline-content p {
-    color: #c8c8c8;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
