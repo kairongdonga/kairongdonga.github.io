@@ -13,9 +13,8 @@ body {
 
 .timeline-section {
     background-image: url(1.png);
- 
     min-height: 100vh;
- 
+    padding: 5px  10px;
 }
 
 .timeline-items {
